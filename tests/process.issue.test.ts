@@ -21,7 +21,6 @@ describe("Modules tests", () => {
 
   beforeAll(async () => {
     await activity.init();
-    await activity.init();
   });
 
   it("Should extract users from comments", async () => {
